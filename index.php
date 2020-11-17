@@ -15,6 +15,21 @@ $my_year = 2020;
 year_check($my_year);
 echo "<hr>"; 
 ////////////////////////////////
+echo "QUSTION2"."<br>";
+function temp($Temp1){
+if($Temp1<=20)
+echo "We are in winter";
+ else {
+    echo "The season is summer";
+ }
+    
+}
+$Temp1=18;
+temp($Temp1);
+
+echo "<hr>";
+
+////////////////////////////////
 echo "QUSTION!3"."<br>";
 function test($x, $y) 
 {
@@ -147,4 +162,3 @@ var_dump(testq(1, 4));
 
 
 ?>
-
